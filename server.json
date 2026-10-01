@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.alialtunar/launch-detector-mcp",
+  "title": "Launch Detector",
+  "description": "Spot unannounced products from new subdomains in certificate transparency logs. No API keys.",
+  "repository": { "url": "https://github.com/alialtunar/launch-detector-mcp", "source": "github" },
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "registryBaseUrl": "https://pypi.org",
+      "identifier": "launch-detector-mcp",
+      "version": "0.1.0",
+      "runtimeHint": "uvx",
+      "transport": { "type": "stdio" }
+    }
+  ]
+}
